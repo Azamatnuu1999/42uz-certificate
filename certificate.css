@@ -1,0 +1,135 @@
+/* Downloaded and used fonts */
+@font-face {
+    font-family: 'WorkSans';
+    src: url('fonts/WorkSans-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'WorkSansBold';
+    src: url('fonts/WorkSans-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'WorkSans', monospace;
+}
+
+.certificate {
+    width: 1190px;
+    height: 1684px;
+    margin: 40px auto;
+    padding: 80px 120px;
+    background-image: url('assets/img/background.png');
+    box-shadow: 0 0 16px 8px grey;
+    background-repeat: no-repeat;
+}
+
+/* Main section of certificate */
+.main__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.main__top .about {
+    width: 384px;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.main__top .logo-img {
+    width: 408px;
+}
+
+.main__center {
+    font-family: 'WorkSansBold', 'monospace';
+    margin: 45px 0;
+    letter-spacing: 0.07em;
+    font-size: 147px;
+    color: white;
+    width: 960px;
+}
+
+.main__bottom {
+    text-align: left;
+}
+
+.main__bottom h1 {
+    font-family: 'WorkSansBold', 'monospace';
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.main__bottom p {
+    width: 739px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 42px;
+}
+
+.main__certificate {
+    margin: 140px auto;
+    width: 150px;
+    height: 150px;
+}
+
+/* Bottom section of Certificate */
+.certificate__bottom {
+    background-image: url('assets/img/background-bottom.png');
+    background-repeat: no-repeat;
+    height: 209px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.certificate__bottom .left {
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 500;
+}
+
+.certificate__bottom .line {
+    margin: 0 0 24px;
+}
+
+.certificate__bottom .right {
+    font-weight: 500;
+    text-align: right;
+    font-size: 24px;
+    color: #5C5C5C;
+}
+
+.certificate__bottom .right img {
+    margin-top: -40px;
+}
+
+.certificate__bottom .right p {
+    margin-top: 50px;
+}
+
+
+/* Text color classes */
+.yellow-text {
+    color: #FFD600;
+}
+
+.light-grey-text {
+    color: #D9D9D9;
+}
+
+.grey-text {
+    color: #A8A8A8;
+}
+
+.white-text {
+    color: #FFFFFF;
+}
